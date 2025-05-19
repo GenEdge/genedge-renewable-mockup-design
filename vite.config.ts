@@ -9,6 +9,7 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
   },
+  base: '/genedge-renewable-mockup-design/'
   plugins: [
     react(),
     mode === 'development' &&
